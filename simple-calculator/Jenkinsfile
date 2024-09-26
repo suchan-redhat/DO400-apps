@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 sendNotification('started', 'team@example.com')
-                git branch: 'notifiction', url: 'https://github.com/suchan-redhat/DO400-apps'
+                git branch: 'solutions', url: 'https://github.com/redhattraining/DO400-apps'
             } 
         }
 
